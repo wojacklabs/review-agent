@@ -1,0 +1,142 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-14",
+  "stats": {
+    "totalRules": 15,
+    "learningSessions": 1
+  },
+  "categories": {
+    "tsx": {
+      "file": "rules/tsx.md",
+      "count": 1,
+      "rules": ["TSX-001"]
+    },
+    "scss": {
+      "file": "rules/scss.md",
+      "count": 14,
+      "rules": ["SCSS-001", "SCSS-002", "SCSS-003", "SCSS-004", "SCSS-005", "SCSS-006", "SCSS-007", "SCSS-008", "SCSS-009", "SCSS-010", "SCSS-011", "SCSS-012", "SCSS-013", "SCSS-014"]
+    },
+    "naming": {
+      "file": "rules/naming.md",
+      "count": 0,
+      "rules": []
+    },
+    "structure": {
+      "file": "rules/structure.md",
+      "count": 0,
+      "rules": []
+    },
+    "accessibility": {
+      "file": "rules/accessibility.md",
+      "count": 0,
+      "rules": []
+    }
+  },
+  "rules": [
+    {
+      "id": "TSX-001",
+      "title": "No unstyled wrapper elements",
+      "category": "tsx",
+      "severity": "error",
+      "added": "2026-01-14"
+    },
+    {
+      "id": "SCSS-001",
+      "title": "Do not use gap property",
+      "category": "scss",
+      "severity": "error",
+      "added": "2026-01-14"
+    },
+    {
+      "id": "SCSS-002",
+      "title": "CSS property order",
+      "category": "scss",
+      "severity": "error",
+      "added": "2026-01-14"
+    },
+    {
+      "id": "SCSS-003",
+      "title": "Do not use rem unit",
+      "category": "scss",
+      "severity": "error",
+      "added": "2026-01-14"
+    },
+    {
+      "id": "SCSS-004",
+      "title": "Unnecessary position relative",
+      "category": "scss",
+      "severity": "error",
+      "added": "2026-01-14"
+    },
+    {
+      "id": "SCSS-005",
+      "title": "Do not use display grid",
+      "category": "scss",
+      "severity": "error",
+      "added": "2026-01-14"
+    },
+    {
+      "id": "SCSS-006",
+      "title": "Use adjacent sibling selector for spacing",
+      "category": "scss",
+      "severity": "error",
+      "added": "2026-01-14"
+    },
+    {
+      "id": "SCSS-007",
+      "title": "Unnecessary flex column for vertical layout",
+      "category": "scss",
+      "severity": "error",
+      "added": "2026-01-14"
+    },
+    {
+      "id": "SCSS-008",
+      "title": "Do not use tag or universal selectors",
+      "category": "scss",
+      "severity": "error",
+      "added": "2026-01-14"
+    },
+    {
+      "id": "SCSS-009",
+      "title": "Do not use vh unit",
+      "category": "scss",
+      "severity": "error",
+      "added": "2026-01-14"
+    },
+    {
+      "id": "SCSS-010",
+      "title": "No unitless line-height",
+      "category": "scss",
+      "severity": "error",
+      "added": "2026-01-14"
+    },
+    {
+      "id": "SCSS-011",
+      "title": "No shorthand then individual redeclaration",
+      "category": "scss",
+      "severity": "error",
+      "added": "2026-01-14"
+    },
+    {
+      "id": "SCSS-012",
+      "title": "No display on flex children",
+      "category": "scss",
+      "severity": "error",
+      "added": "2026-01-14"
+    },
+    {
+      "id": "SCSS-013",
+      "title": "Do not use em unit",
+      "category": "scss",
+      "severity": "error",
+      "added": "2026-01-14"
+    },
+    {
+      "id": "SCSS-014",
+      "title": "Do not use hsl/hsla colors",
+      "category": "scss",
+      "severity": "error",
+      "added": "2026-01-14"
+    }
+  ]
+}
