@@ -1,0 +1,65 @@
+.testimonial {
+  padding: 32px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.stars {
+  margin-bottom: 16px;
+}
+
+.star {
+  font-size: 18px;
+  color: #e2e8f0;
+
+  & + & {
+    margin-left: 4px;
+  }
+}
+
+.starFilled {
+  color: #fbbf24;
+}
+
+.quote {
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 26px;
+  color: #334155;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.info {
+  margin-left: 12px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.role {
+  margin-top: 2px;
+  font-size: 13px;
+  color: #64748b;
+}
